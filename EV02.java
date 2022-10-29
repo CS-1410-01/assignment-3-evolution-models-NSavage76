@@ -105,6 +105,7 @@ class Dog extends Creature {
     Dog(){
         dieChance = .05f;
         reproduceChance = .1f;
+        //yeet
     }
     @Override
     Creature reproduce(float chance){
